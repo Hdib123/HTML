@@ -710,7 +710,10 @@ h1 {
   h1 {
     font-size: 5rem;
   }
-}
+  .login-container form button:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.9);
+  }
+  }
 @media only screen and (min-width: 1400px) {
   h1 {
     font-size: 6.6rem;
@@ -3307,7 +3310,7 @@ h1 {
 }
 
 .login-container form input:focus {
-  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.8);
   animation: wobble 0.3s ease-in;
   -webkit-animation: wobble 0.3s ease-in;
 }
@@ -3338,7 +3341,7 @@ h1 {
 }
 
 .login-container form button:hover {
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
   transform: scale(1.02);
   -webkit-transform: scale(1.02);
   -moz-transform: scale(1.02);
