@@ -710,10 +710,10 @@ h1 {
   h1 {
     font-size: 5rem;
   }
-  .login-container form button:hover {
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.9);
+  .form-container {
+    backdrop-filter: blur(200px);
   }
-  }
+}
 @media only screen and (min-width: 1400px) {
   h1 {
     font-size: 6.6rem;
