@@ -710,9 +710,6 @@ h1 {
   h1 {
     font-size: 5rem;
   }
-  .form-container {
-    backdrop-filter: blur(200px);
-  }
 }
 @media only screen and (min-width: 1400px) {
   h1 {
@@ -3280,7 +3277,9 @@ h1 {
   border: 1px solid hsla(0, 0%, 65%, 0.158);
   box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px)!important;
+  -webkit-backdrop-filter: blur(25px)!important;
+
   z-index: 99;
   padding: 2rem;
   -webkit-border-radius: 10px;
@@ -3288,6 +3287,7 @@ h1 {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 
 .login-container form input {
   display: block;
